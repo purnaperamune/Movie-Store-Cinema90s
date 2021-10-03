@@ -1,0 +1,55 @@
+body{
+    background-image: url(../images/siteMapbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+svg{
+    width: 102%;
+    margin-left: -17px;
+    height: 500px;
+    margin-top: 25px;
+}
+rect{
+    height: 50px;
+    width: 170px;
+    stroke-width:5px;
+    stroke: wheat;
+    fill: navy;
+    
+}
+.site-map{
+    font-size: 17px;
+    font-weight: 600;
+    font-family: -apple-system;
+    fill: whitesmoke;
+
+}
+.site-map:hover{
+    text-decoration: underline;
+}
+line{
+    stroke: wheat;
+    stroke-width: 2px;
+}
+#sub-form{
+    margin-top: -15px;
+    padding-top: 5px;
+}
+#btn-sub2{
+    
+    height: 31px;
+    background-color: red;
+    color: white;
+    align-content: center;
+    font-size: 15px;
+    margin-top: 8px;
+    width: 30%;
+    background-color: red;
+    color: white;
+    align-content: center;
+    font-size: 15px;
+    margin-top: 8px;
+}
+#btn-sub2:hover{
+    background-color: #dc143c;
+}

@@ -1,0 +1,157 @@
+.content-cards{
+    margin: 8px;
+    height: 480px;
+    width: 30%;
+    border: black 1px solid;
+    display: block;
+    float: left;
+}
+#main-content{
+    height: 2220px;
+    background-color: black;
+    margin: 0px;
+    color: blanchedalmond;
+    margin-right: -8px;
+margin-left: -8px;
+}
+div .info-area{
+    height: 100px;
+    background-color: navy;
+}
+.info-area p{
+    margin-top: 0px;
+    margin-left: 82px;
+    /* margin-left: 97px; */
+    margin-top: 0px;
+    font-size: 27px;
+    padding-top: 16px;
+    margin-bottom: 0px;
+
+}
+.height-change{
+    height: 0px;
+    margin-left: 5px;
+}
+#tv{
+    margin-top: 970px;
+}
+#products{
+    width: 60%;
+    display: inline;
+    float: left;
+    padding: 20px;
+    margin-top: 10px;
+}
+.btnCart{
+    margin-left: 78px;
+    margin-top: -6px;
+    height: 32px;
+    font-size: 21px;
+}
+.btnCart:hover{
+    background-color: #dc143c;
+    margin-left: 78px;
+    margin-top: -6px;
+    height: 32px;
+    font-size: 21px;
+}
+#payment{
+    width: 30%;
+    display: inline;
+    float: left;
+    margin-top: 100px;
+}
+
+#payment p{
+    font-size: 28px;
+font-family: tahoma;
+text-align: center;
+}
+
+.cart-item{
+    width: 45%;
+    display: inline-block;
+}
+.cart-price{
+    width: 25%;
+    display: inline-block;
+}
+.cart-total{
+    text-align: right;
+margin-top: 27px;
+}
+.cart-total-price{
+    margin-left: 3px;
+}
+.cart-quantity{
+    width: 20%;
+    display: inline-block;
+}
+#img1{
+    background-image: url(../images/inception.jpg);  
+}
+#img2{
+    background-image: url(../images/interstellar.jpg);
+}
+#img3{
+    background-image: url(../images/mulan.jpg);
+}
+#img4{
+    background-image: url(../images/themartian.jpg);
+}
+#img5{
+    background-image: url(../images/needforspeed.jpg);
+}
+#img6{
+    background-image: url(../images/gravity.jpg);
+}
+#img7{
+    background-image: url(../images/pllTV.jpg);
+}
+#img8{
+    background-image: url(../images/strangerthingsTV.jpg);
+}
+#img9{
+    background-image: url(../images/salvationTV.jpg);
+}
+#img10{
+    background-image: url(../images/youTV.jpg);
+}
+#img11{
+    background-image: url(../images/moneyheistTV.jpg);
+}
+#img12{
+    background-image: url(../images/queensgambit.jpg);
+}
+.img-area{
+    height: 380px;
+    width: 100%;
+    background-size: cover;
+}
+#btn-sub2{
+    
+    height: 31px;
+    background-color: red;
+    color: white;
+    align-content: center;
+    font-size: 15px;
+    margin-top: 8px;
+    width: 30%;
+    background-color: red;
+    color: white;
+    align-content: center;
+    font-size: 15px;
+    margin-top: 8px;
+}
+#btn-sub2:hover{
+    background-color: #dc143c;
+}
+#sub-mail {
+    margin-top: 6px;
+}
+.titles{
+    font-weight: 600;
+    font-size: 22px;
+    font-family: tahoma;
+    padding-left: 8px;
+}

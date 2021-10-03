@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/navigationBar.css">
+    <title>Movies & TVs</title>
+    
+</head>
+<body id="id1">
+    <div id="nav-bar">
+        <ul>
+            <li><a href="mainPage.html">Home</a></li>
+            <li><a href="moviesTVs.html">Movies & TVs</a></li>
+            <li><a href="buyProducts.html">Store</a></li>
+            <li><a href="queryForm.html">Feedback</a></li>
+            <li><a href="siteMap.html">Site Map</a></li>
+            <li><a href="developerInfo.html">Developer</a></li>
+        </ul>
+    </div>
+    <div id="content">
+        <form>
+            <label for="choose">Choose a theme</label>
+            <select name="choose" id="choose">
+                <option>Select</option>
+                <option value="dark">Dark</option>
+                <option value="red">Red</option>
+            </select>
+        </form>
+    </div>
+    <p id="final-Results">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo aperiam voluptates, odit labore fugit dolor exercitationem iure error omnis magni consequuntur quos amet excepturi qui voluptatibus possimus voluptatum accusamus distinctio.</p>
+    <script>
+        var e = document.getElementById("choose");
+        function getSelectedValue(selectList){
+            return selectList[selectList.selectedIndex].value;
+        }
+
+
+        function changeTheme(){
+            var strUser = getSelectedValue(e)
+            if(strUser=="dark"){
+                document.getElementById("final-Results").style.backgroundColor = "Black" ;
+            }
+            else if(strUser=="red"){
+                document.getElementById("final-Results").style.backgroundColor = "Red" ;
+            }
+        }
+        e.onchange=changeTheme;
+        changeTheme();
+
+
+    //     document.getElementById("content").style.backgroundColor = "Blue";
+    //     document.getElementById("id1").style.backgroundColor = "Green" ;
+    </script>
+</body>
+</html>

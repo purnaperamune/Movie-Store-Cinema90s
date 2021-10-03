@@ -1,0 +1,75 @@
+body{
+    background-color: black;
+}
+#img{
+    border-radius: 208px;
+    background-size: contain;
+    background-image: url(../images/me.jpg);
+    height: 257px;
+    width: 257px;
+    margin-top: 115px;
+    margin-left: 250px;
+    position: absolute;
+}
+#main{
+    height: 440px;
+    width: 100%;
+    color: white;
+    margin-top: -55px;
+    margin-bottom: 5px;
+}
+#info{
+    width: 30%;
+    position: absolute;
+    margin-top: 77px;
+    margin-left: 600px;
+}
+#name{
+    font-size: 32px;
+    font-weight: 600;
+    font-family: tahoma;
+}
+#content-skills{
+    font-size: 18px;
+    font-family: Arial;
+    line-height: 25px;
+}
+#skills-list{
+    font-family: arial;
+    line-height: 23px;
+    margin-left: -100px;
+    padding: 0px;
+    font-size: 18px;
+    margin-top: -10px;
+}
+#skills-list li{
+    padding-left: 0px;
+    margin-left: 140px;
+    display: list-item;
+}
+#content{
+    font-family: Apple Symbols;
+    margin-top: -12px;
+}
+#sub-form{
+    margin-top: -15px;
+    padding-top: 5px;
+}
+#btn-sub2{
+    
+    height: 31px;
+    background-color: red;
+    color: white;
+    align-content: center;
+    font-size: 15px;
+    margin-top: 8px;
+    width: 30%;
+    background-color: red;
+    color: white;
+    align-content: center;
+    font-size: 15px;
+    margin-top: 8px;
+}
+#btn-sub2:hover{
+    background-color: #dc143c;
+}

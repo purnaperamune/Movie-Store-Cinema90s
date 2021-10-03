@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/navigationBar.css">
+    <link rel="stylesheet" href="css/queryFor.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <div id="nav-bar">
+        <ul>
+            <li><a href="mainPage.html">Home</a></li>
+            <li><a href="moviesTVs.html">Movies & TVs</a></li>
+            <li><a href="buyProducts.html">Store</a></li>
+            <li><a href="queryForm.html">Feedback</a></li>
+            <li><a href="siteMap.html">Site Map</a></li>
+            <li><a href="developerInfo.html">Developer</a></li>
+        </ul>
+    </div>
+    <div id="feedback">
+        <div>Give Us Your Opinion</div>
+        <form name="feedback-form" id="feedback-form" action="mailto:purnaperamune@gmail.com" method="post" onsubmit="goBack();">
+            
+            <label for="firstName">First Name</label>
+            <input type="text" class="inputs" id="firstName" name="firstName">
+
+            <label for="secondName">Second Name</label>
+            <input type="text" class="inputs" id="secondName" name="secondName">
+
+            <label for="telephone">Telephone</label>
+            <input type="text" class="inputs" id="telephone" name="telephone">
+
+            <label for="email">E-mail</label>
+            <input type="text" class="inputs" id="email" name="email">
+
+            <label for="options">About What</label>
+            <select name="options" id="options">
+                <option value="empty">Select</option>
+                <option value="website">Website</option>
+                <option value="store">Store</option>
+                <option value="social">Social</option>
+            </select>
+
+            <label for="yourFeedback">Your feedback</label>
+            <textarea rows="15" cols="65" id="yourFeedback" name="yourFeedback"></textarea>
+
+            <input type="button" id="btnReset" value="Reset" onclick="resetForm(this.form);">
+            <input type="button" id="btnSubmit" value="View" onclick="validate(this.form);">
+        </form>
+        <span id="choose-theme">
+            <label for="theme">Mode</label>
+            <select id="theme">
+                <option value="empty">Select</option>
+                <option value="dark">Dark</option>
+                <option value="light">Light</option>
+                <option value="cream">Cream</option>
+            </select>
+        </span>
+    </div>
+    <div id="display-form">
+        <span id="title">Summary</span>
+        <hr id="title-hr">
+        <span id="name"></span>
+        <span id="tele"></span>
+        <span id="mail"></span>
+        <span id="aboutWhat"></span>
+        <span id="comments"></span>
+        <input type="submit" id="btn-Submit" form="feedback-form" class="summary-btn" value="Submit" onclick="resetForm(this.form);">
+        <input type="button" id="btn-Edit" class="summary-btn" value="Edit" onclick="goBack();">
+    </div>
+    
+    <footer>
+        <hr>
+        <div class="content">
+            <ul>
+                <p>NEED HELP?</p>
+                <li><a href="#">Customer Service</a></li>
+                <li><a href="#">Package Plans</a></li>
+                <li><a href="#">Subcriptions</a></li>
+                <li><a href="#">Buy Tickets</a></li>
+                <li><a href="#">Our Supporters</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <ul>
+                <p>VISIT US</p>
+                <li><a href="#">Getting Here</a></li>
+                <li><a href="#">Parking</a></li>
+                <li><a href="#">Food Store</a></li>
+                <li><a href="#">Seating Area</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <ul>
+                <p>COMPANY</p>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <ul>
+                <p>SOCIAL</p>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Youtube</a></li>
+            </ul>
+        </div>
+        <div id="subcribe-mail">
+            <p id="title2">Stay up to date with us</p>
+            <p id="content">Subcribe to our newsletter today to get most recent news, updates, events, and special offers. We respect your privacy and your information is safe and will never be shared.</p>
+            <form id="sub-form">
+                <input type="email" placeholder="Your E-mail Address" name="sub-mail" id="sub-mail">
+                <input type="button" id="btn-sub2" value="Subcribe">  
+            </form>    
+        </div>
+    </footer>
+    <script src="js/queryForm.js"></script>
+</body>
+</html>

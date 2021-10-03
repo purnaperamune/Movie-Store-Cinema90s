@@ -1,0 +1,96 @@
+#feedback-form{
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 41%;
+    background-color: #ece5e5;
+    height: 543px;
+    padding: 18px;
+    margin-top: 10px;
+}
+#feedback div{
+    font-family: Arial Black;
+    font-size: 20px;
+    background-color: wheat;
+}
+#feedback{
+    padding-top: 8px;
+    padding-left: 12px;
+    margin-right: -8px;
+    margin-left: -8px;
+    margin-top: 0px;
+    padding-bottom: 10px;
+}
+#choose-theme{
+    margin-left: 89%;
+    position: absolute;
+    margin-top: -545px;
+    display: flex;
+}
+label{
+    display: grid;
+    font-family: LiHei Pro;
+    font-size: 20px;
+}
+.inputs{
+    width: 200px;
+    height: 20px;
+    line-height: 5;
+}
+input[type=button]{
+    background-color: navy;
+    color: white;
+}
+input[type=button]:hover{
+    background-color: blue;
+}
+#content{
+    font-family: Apple Symbols;
+    margin-top: -12px;
+}
+#sub-form{
+    margin-top: -15px;
+    padding-top: 5px;
+}
+#btn-sub2{
+    
+    height: 31px;
+    background-color: red;
+    color: white;
+    align-content: center;
+    font-size: 15px;
+    margin-top: 8px;
+    width: 30%;
+    background-color: red;
+    color: white;
+    align-content: center;
+    font-size: 15px;
+    margin-top: 8px;
+}
+#btn-sub2:hover{
+    background-color: #dc143c;
+}
+#display-form{
+    background-color: yellow;
+    height: auto;
+    width: 47%;
+    position: absolute;
+    margin-top: -530px;
+    margin-left: 325px;
+    padding: 20px;
+    font-size: 22px;
+    font-family: sans-serif;
+    display: grid;
+    line-height: 33px;
+    visibility: hidden;
+}
+#title{
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-bottom: 6px;
+
+}
+#title-hr{
+    margin: 0px;
+    height: 1px;
+    background-color: black;
+}

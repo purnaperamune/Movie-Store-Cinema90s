@@ -1,0 +1,27 @@
+body{
+    background-color: #00008b;
+}
+#main-content{
+    color: white;
+    margin-top: 250px;
+    margin-left: 320px;
+}
+.style-title{
+    font-size: 53px;
+    font-family: Beirut;
+}
+#line-2 span{
+    color: #32cd32;
+}
+#line-1{
+    margin-left: 123px;
+}
+#line-2{
+    margin-top: -60px;
+}
+#side-quote{
+    margin-left: -70px;
+    font-family: Ayuthaya;
+    margin-top: -60px;
+}
+
